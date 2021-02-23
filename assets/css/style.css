@@ -1,7 +1,21 @@
 .page-header {
-    padding-top: 1em;
+    padding-top: 1.6em;
 }
 
 .copyright-text {
     font-size: 0.8em;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-link .navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.resume-page {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
 }
