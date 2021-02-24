@@ -19,3 +19,16 @@
     height: 100vh;
     width: 100vw;
 }
+
+.card-image {
+    height: 256px;
+    object-fit: contain;
+}
+
+.card-image {
+    transition: 0.2s all;
+}
+
+.card-image:hover {
+    transform: scale(1.1);
+}

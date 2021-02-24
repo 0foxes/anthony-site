@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 	<link rel='icon' href="https://picsum.photos/256/256?random=1" type='image/x-icon'>
 	<title>Projects</title>
 	<!-- Mobile-friendly navbar -->
@@ -36,8 +36,85 @@
 			<h1>Projects</h1>
 		</div>
 		<hr>
-		<div class="alert alert-dark" role="alert">
-			No projects found. <a href="/" class="alert-link">Return home</a>?
+        <p>These are just a select few of my projects—almost all of my other projects are available on my <a href="https://github.com/slightlyskepticalpotat">Github</a> under an open-source licence.</p>
+		<div class="row">
+			<div class="col-sm-4 mb-3">
+				<div class="card">
+					<img class="card-img-top card-image" src="/assets/img/rc4.png" alt="Network error, image failed to load.">
+					<div class="card-body">
+						<h4 class="card-title text-center">RC4-drop</h4>
+						<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalOne">More</button>
+                        <a href="https://github.com/slightlyskepticalpotat/RC4-drop">
+        					<i class="fas fa-external-link-alt fa-2x px-2 float-end"></i>
+        				</a>
+					</div>
+					<div class="modal fade" id="modalOne" tabindex="-1" aria-labelledby="modalOneLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3 class="modal-title" id="modalOneLabel">RC4-drop</h3>
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<p>Object-oriented implemention of RC4-drop[n], a modification of the simple and speedy RC4 stream cipher that defends against the Fluhrer, Mantin and Shamir attack by discarding the first n bytes of the keystream after key generation. It can also be used as regular RC4 by setting n = 0, or a performant pseudorandom number generator.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+            <div class="col-sm-4 mb-3">
+				<div class="card">
+					<img class="card-img-top card-image" src="/assets/img/cp.png" alt="Network error, image failed to load.">
+					<div class="card-body">
+						<h4 class="card-title text-center">Competitive Programming</h4>
+						<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTwo">More</button>
+                        <a href="https://github.com/slightlyskepticalpotat/programming-solutions">
+        					<i class="fas fa-external-link-alt fa-2x px-2 float-end"></i>
+        				</a>
+					</div>
+					<div class="modal fade" id="modalTwo" tabindex="-1" aria-labelledby="modalTwoLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3 class="modal-title" id="modalTwoLabel">Competitive Programming</h3>
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<p>A repository of my solutions to problems on various online judges, programming challenges, and contests. Includes code from DMOJ, Codeforces, the CCC, the CCO, the USACO, the Google Foobar challenge, and more.</p>
+                                    <p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+            <div class="col-sm-4 mb-3">
+				<div class="card">
+					<img class="card-img-top card-image" src="/assets/img/ctfoj.png" alt="Network error, image failed to load.">
+					<div class="card-body">
+						<h4 class="card-title text-center">CTFOJ</h4>
+						<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modelThree">More</button>
+                        <a href="https://github.com/jdabtieu/CTFOJ">
+        					<i class="fas fa-external-link-alt fa-2x px-2 float-end"></i>
+        				</a>
+					</div>
+					<div class="modal fade" id="modelThree" tabindex="-1" aria-labelledby="modelThreeLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h3 class="modal-title" id="modelThreeLabel">CTFOJ</h3>
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<p>An open-source online judge specifically designed for hosting interactive cybersecurity challenges and contests. Features include practice problems, contests, an admin console, two-factor authentication, a comprehensive test suite, and live rankings. Built with Flask, in collaboration with <a href="https://github.com/jdabtieu/">jdabtieu</a>.</p>
+                                    <p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<hr>
 	</div>
