@@ -32,3 +32,26 @@
 .card-image:hover {
     transform: scale(1.1);
 }
+
+.blog-card-img {
+    max-height: 256px;
+    object-fit: cover;
+}
+
+.blog-content-img-big {
+    max-height: 1024px;
+    max-width: 1024px;
+    object-fit: cover;
+}
+
+.blog-content-img-med {
+    max-height: 512px;
+    max-width: 512px;
+    object-fit: cover;
+}
+
+.blog-content-img-small {
+    max-height: 256px;
+    max-width: 256px;
+    object-fit: cover;
+}
