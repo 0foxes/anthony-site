@@ -1,57 +1,93 @@
-.page-header {
-    padding-top: 1.6em;
-}
-
-.copyright-text {
-    font-size: 0.75em;
-}
-
 * {
-    font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.page-header {
+	padding-top: 1.6em;
 }
 
 .navbar-dark, .navbar-nav, .nav-link, h1, h2, h3, h4, h5, h6 {
-    font-family: 'Ubuntu', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.copyright-text {
+	font-size: 0.75em;
 }
 
 .resume-page {
-    overflow: hidden;
-    height: 100vh;
-    width: 100vw;
+	overflow: hidden;
+	height: 100vh;
+	width: 100vw;
 }
 
 .card-image {
-    height: 256px;
-    object-fit: contain;
-}
-
-.card-image {
-    transition: 0.2s all;
+	height: 256px;
+	object-fit: contain;
+    transition: transform .3s;
 }
 
 .card-image:hover {
-    transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .blog-card-img {
-    max-height: 192px;
-    object-fit: cover;
+	max-height: 192px;
+	object-fit: cover;
 }
 
 .blog-content-img-big {
-    max-height: 1024px;
-    max-width: 1024px;
-    object-fit: cover;
+	max-height: 1024px;
+	max-width: 1024px;
+	object-fit: cover;
 }
 
 .blog-content-img-med {
-    max-height: 512px;
-    max-width: 512px;
-    object-fit: cover;
+	max-height: 512px;
+	max-width: 512px;
+	object-fit: cover;
 }
 
 .blog-content-img-small {
-    max-height: 256px;
-    max-width: 256px;
-    object-fit: cover;
+	max-height: 256px;
+	max-width: 256px;
+	object-fit: cover;
+}
+
+/* blinking cursor mainly for headers, patterned off gnome-terminal */
+.blinking {
+    animation: 1.2s blink step-end infinite;
+	-webkit-animation: 1.2s blink step-end infinite;
+	-moz-animation: 1.2s blink step-end infinite;
+	-ms-animation: 1.2s blink step-end infinite;
+	-o-animation: 1.2s blink step-end infinite;
+}
+
+@keyframes "blink" {
+    50% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes "blink" {
+    50% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+@-ms-keyframes "blink" {
+    50% {
+        opacity: 0;
+    }
+}
+
+@-o-keyframes "blink" {
+    50% {
+        opacity: 0;
+    }
 }

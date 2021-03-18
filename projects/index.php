@@ -33,7 +33,7 @@
 <body>
     <div class="container">
         <div class="page-header">
-            <h1>Projects</h1>
+            <h1>Projects<span class="blinking">_</span></h1>
         </div>
         <hr>
         <p>These are just a select few of my projects—almost all of my other projects are available on my <a href="https://github.com/slightlyskepticalpotat">Github</a> under an open-source licence.</p>
