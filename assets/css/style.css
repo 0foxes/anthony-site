@@ -2,12 +2,12 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
-.page-header {
-	padding-top: 1.6em;
-}
-
 .navbar-dark, .navbar-nav, .nav-link, h1, h2, h3, h4, h5, h6 {
 	font-family: 'Ubuntu', sans-serif;
+}
+
+.page-header {
+	padding-top: 1.5em;
 }
 
 .copyright-text {
@@ -53,7 +53,7 @@
 	object-fit: cover;
 }
 
-/* blinking cursor mainly for headers, patterned off gnome-terminal */
+/* blinking class for underscores and the like */
 .blinking {
     animation: 1.2s blink step-end infinite;
 	-webkit-animation: 1.2s blink step-end infinite;
@@ -90,4 +90,17 @@
     50% {
         opacity: 0;
     }
+}
+
+/* change bootstrap's colours so it looks better */
+.icon, .btn {
+    color: slateblue;
+}
+
+.icon:hover {
+    color: royalblue;
+}
+
+.btn:hover {
+    background-color: royalblue;
 }

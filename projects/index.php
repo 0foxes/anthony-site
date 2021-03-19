@@ -45,9 +45,9 @@
                         <img class="card-img-top card-image" src="/assets/img/aitic.png" alt="Network error, image failed to load.">
                         <div class="card-body">
                             <h4 class="card-title text-center">AI Tic-tac-toe</h4>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalZero">More</button>
+                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalZero">More</button>
                             <a href="https://github.com/slightlyskepticalpotat/ai-tictactoe">
-                                <i class="fas fa-external-link-alt fa-2x px-2 float-end"></i>
+                                <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
                             </a>
                         </div>
                         <div class="modal fade" id="modalZero" tabindex="-1" aria-labelledby="modalZeroLabel" aria-hidden="true">
@@ -72,9 +72,9 @@
                         <img class="card-img-top card-image" src="/assets/img/rc4.png" alt="Network error, image failed to load.">
                         <div class="card-body">
                             <h4 class="card-title text-center">RC4-drop</h4>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalOne">More</button>
+                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalOne">More</button>
                             <a href="https://github.com/slightlyskepticalpotat/RC4-drop">
-                                <i class="fas fa-external-link-alt fa-2x px-2 float-end"></i>
+                                <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
                             </a>
                         </div>
                         <div class="modal fade" id="modalOne" tabindex="-1" aria-labelledby="modalOneLabel" aria-hidden="true">
@@ -99,9 +99,9 @@
                         <img class="card-img-top card-image" src="/assets/img/cp.png" alt="Network error, image failed to load.">
                         <div class="card-body">
                             <h4 class="card-title text-center">Competitive Programming</h4>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTwo">More</button>
+                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalTwo">More</button>
                             <a href="https://github.com/slightlyskepticalpotat/programming-solutions">
-                                <i class="fas fa-external-link-alt fa-2x px-2 float-end"></i>
+                                <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
                             </a>
                         </div>
                         <div class="modal fade" id="modalTwo" tabindex="-1" aria-labelledby="modalTwoLabel" aria-hidden="true">
@@ -126,9 +126,9 @@
                         <img class="card-img-top card-image" src="/assets/img/ctfoj.png" alt="Network error, image failed to load.">
                         <div class="card-body">
                             <h4 class="card-title text-center">CTFOJ</h4>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalThree">More</button>
+                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalThree">More</button>
                             <a href="https://github.com/jdabtieu/CTFOJ">
-                                <i class="fas fa-external-link-alt fa-2x px-2 float-end"></i>
+                                <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
                             </a>
                         </div>
                         <div class="modal fade" id="modalThree" tabindex="-1" aria-labelledby="modalThreeLabel" aria-hidden="true">
@@ -153,9 +153,9 @@
                         <img class="card-img-top card-image" src="/assets/img/website.png" alt="Network error, image failed to load.">
                         <div class="card-body">
                             <h4 class="card-title text-center">Personal Website</h4>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalFour">More</button>
+                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalFour">More</button>
                             <a href="https://github.com/slightlyskepticalpotat/chenanthony">
-                                <i class="fas fa-external-link-alt fa-2x px-2 float-end"></i>
+                                <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
                             </a>
                         </div>
                         <div class="modal fade" id="modalFour" tabindex="-1" aria-labelledby="modalFourLabel" aria-hidden="true">
@@ -180,9 +180,9 @@
                         <img class="card-img-top card-image" src="/assets/img/subdl.png" alt="Network error, image failed to load.">
                         <div class="card-body">
                             <h4 class="card-title text-center">Submission-Downloader</h4>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalFive">More</button>
+                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalFive">More</button>
                             <a href="https://github.com/slightlyskepticalpotat/submission-downloader">
-                                <i class="fas fa-external-link-alt fa-2x px-2 float-end"></i>
+                                <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
                             </a>
                         </div>
                         <div class="modal fade" id="modalFive" tabindex="-1" aria-labelledby="modalFiveLabel" aria-hidden="true">
@@ -207,9 +207,9 @@
                         <img class="card-img-top card-image" src="/assets/img/exactum.png" alt="Network error, image failed to load.">
                         <div class="card-body">
                             <h4 class="card-title text-center">Exactum</h4>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalSix">More</button>
+                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalSix">More</button>
                             <a href="https://github.com/slightlyskepticalpotat/exactum">
-                                <i class="fas fa-external-link-alt fa-2x px-2 float-end"></i>
+                                <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
                             </a>
                         </div>
                         <div class="modal fade" id="modalSix" tabindex="-1" aria-labelledby="modalSixLabel" aria-hidden="true">
@@ -234,9 +234,9 @@
                         <img class="card-img-top card-image" src="/assets/img/conway.png" alt="Network error, image failed to load.">
                         <div class="card-body">
                             <h4 class="card-title text-center">Conway's Game of Life</h4>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalSeven">More</button>
+                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalSeven">More</button>
                             <a href="https://github.com/slightlyskepticalpotat/zoetrope-game-of-life">
-                                <i class="fas fa-external-link-alt fa-2x px-2 float-end"></i>
+                                <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
                             </a>
                         </div>
                         <div class="modal fade" id="modalSeven" tabindex="-1" aria-labelledby="modalSevenLabel" aria-hidden="true">
@@ -261,9 +261,9 @@
                         <img class="card-img-top card-image" src="/assets/img/track.png" alt="Network error, image failed to load.">
                         <div class="card-body">
                             <h4 class="card-title text-center">DIVOC: COVID Tracker</h4>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalEight">More</button>
+                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalEight">More</button>
                             <a href="https://github.com/slightlyskepticalpotat/divoc">
-                                <i class="fas fa-external-link-alt fa-2x px-2 float-end"></i>
+                                <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
                             </a>
                         </div>
                         <div class="modal fade" id="modalEight" tabindex="-1" aria-labelledby="modalEightLabel" aria-hidden="true">
@@ -288,9 +288,9 @@
                         <img class="card-img-top card-image" src="/assets/img/markov.png" alt="Network error, image failed to load.">
                         <div class="card-body">
                             <h4 class="card-title text-center">Simple-Markov</h4>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalNine">More</button>
+                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalNine">More</button>
                             <a href="https://github.com/slightlyskepticalpotat/simple-markov">
-                                <i class="fas fa-external-link-alt fa-2x px-2 float-end"></i>
+                                <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
                             </a>
                         </div>
                         <div class="modal fade" id="modalNine" tabindex="-1" aria-labelledby="modalNineLabel" aria-hidden="true">
@@ -315,9 +315,9 @@
                         <img class="card-img-top card-image" src="/assets/img/aesecb.png" alt="Network error, image failed to load.">
                         <div class="card-body">
                             <h4 class="card-title text-center">Cryptography Challenges</h4>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTen">More</button>
+                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalTen">More</button>
                             <a href="https://github.com/slightlyskepticalpotat/cryptopals-solutions">
-                                <i class="fas fa-external-link-alt fa-2x px-2 float-end"></i>
+                                <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
                             </a>
                         </div>
                         <div class="modal fade" id="modalTen" tabindex="-1" aria-labelledby="modalTenLabel" aria-hidden="true">
@@ -342,9 +342,9 @@
                         <img class="card-img-top card-image" src="/assets/img/mt.png" alt="Network error, image failed to load.">
                         <div class="card-body">
                             <h4 class="card-title text-center">Mersenne Twister Tools</h4>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalEleven">More</button>
+                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalEleven">More</button>
                             <a href="https://github.com/slightlyskepticalpotat/mersenne-twister-tools">
-                                <i class="fas fa-external-link-alt fa-2x px-2 float-end"></i>
+                                <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
                             </a>
                         </div>
                         <div class="modal fade" id="modalEleven" tabindex="-1" aria-labelledby="modalElevenLabel" aria-hidden="true">
@@ -376,27 +376,27 @@
         <ul class="list-inline">
             <li class="list-inline-item">
                 <a href="/">
-                    <i class="fa fa-globe fa-2x px-2"></i>
+                    <i class="fa fa-globe fa-2x px-2 icon"></i>
                 </a>
             </li>
             <li class="list-inline-item">
                 <a href="mailto:chenanthony365@gmail.com">
-                    <i class="fa fa-envelope fa-2x px-2"></i>
+                    <i class="fa fa-envelope fa-2x px-2 icon"></i>
                 </a>
             </li>
             <li class="list-inline-item">
                 <a href="https://github.com/slightlyskepticalpotat">
-                    <i class="fab fa-github fa-2x px-2"></i>
+                    <i class="fab fa-github fa-2x px-2 icon"></i>
                 </a>
             </li>
             <li class="list-inline-item">
                 <a href="/pgp/">
-                    <i class="fas fa-key fa-2x px-2"></i>
+                    <i class="fas fa-key fa-2x px-2 icon"></i>
                 </a>
             </li>
             <li class="list-inline-item">
                 <a href="https://www.linkedin.com/in/anthony-chen-512719207/">
-                    <i class="fab fa-linkedin fa-2x px-2"></i>
+                    <i class="fab fa-linkedin fa-2x px-2 icon"></i>
                 </a>
             </li>
         </ul>
