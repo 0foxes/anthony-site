@@ -24,6 +24,7 @@
                     <a class="nav-link" href="/resume/">Résumé</a>
                     <a class="nav-link active" href="/projects/">Projects</a>
                     <a class="nav-link" href="/blog/">Blog</a>
+                    <a class="nav-link" href="/apps/">Apps</a>
                 </div>
             </div>
         </div>
