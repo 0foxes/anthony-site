@@ -1,9 +1,9 @@
 * {
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 
 .navbar-dark, .navbar-nav, .nav-link, h1, h2, h3, h4, h5, h6 {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .page-header {
@@ -92,7 +92,7 @@
     }
 }
 
-/* change bootstrap's buttons and links so they looks better */
+/* change bootstrap"s buttons and links so they looks better */
 .icon, .btn {
     color: slateblue;
 }
@@ -107,4 +107,9 @@
 
 .btn-outline-primary {
     border: 4px solid;
+}
+
+.form-control-file {
+    border: 4px solid;
+    border-color: slateblue;
 }
