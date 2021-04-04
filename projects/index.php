@@ -234,7 +234,7 @@
                     <div class="card">
                         <img class="card-img-top card-image" src="/assets/img/conway.png" alt="Network error, image failed to load.">
                         <div class="card-body">
-                            <h4 class="card-title text-center">Conway"s Game of Life</h4>
+                            <h4 class="card-title text-center">Conway's Game of Life</h4>
                             <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalSeven">More</button>
                             <a href="https://github.com/slightlyskepticalpotat/zoetrope-game-of-life">
                                 <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
@@ -244,7 +244,7 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h3 class="modal-title" id="modalSevenLabel">Conway"s Game of Life</h3>
+                                        <h3 class="modal-title" id="modalSevenLabel">Conway's Game of Life</h3>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
