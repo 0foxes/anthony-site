@@ -37,7 +37,10 @@
             <h1>Projects<span class="blinking">_</span></h1>
         </div>
         <hr>
-        <p>These are just a select few of my projects—almost all of my other projects are available on my <a href="https://github.com/slightlyskepticalpotat">Github</a> under an open-source licence.</p>
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <span>12 projects retrieved. These are just a few of my projects—all of the other ones are available on my <a href="https://github.com/slightlyskepticalpotat">Github</a>.</span>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
         <div class="row">
             <?php
                 $projects = array(<<<EOS
