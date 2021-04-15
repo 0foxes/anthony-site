@@ -4,11 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
     <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Ubuntu&family=Open+Sans&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&family=Open+Sans&display=swap" media="print" onload="this.media='all'" />
     <link rel="icon" href="https://picsum.photos/256/256?random=1" type="image/x-icon">
     <title>Projects</title>
     <!-- Mobile-friendly navbar -->
@@ -305,7 +306,7 @@
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <p>A fast and simple <a href="https://en.wikipedia.org/wiki/Markov_chain">Markov chain</a>-based text generator written in C++. The number of preceding states used, temperature of the generated text (how "random" it looks), and number of words to generate are all configurable. Can be used to generate words letter-by-letter, or sentences word-by-word. Also takes included punctuation into account.</p>
+                                        <p>A fast and simple <a href="https://en.wikipedia.org/wiki/Markov_chain">Markov chain</a>-based text generator written in C++. The number of preceding states used, temperature of the generated text (how "random" it looks), and number of words to generate are all configurable. Can be used to generate words letter-by-letter, or sentences word-by-word. Flask frontend accessible online <a href="https://chenanthony.com/apps/markov/">here</a>.</p>
                                     </div>
                                 </div>
                             </div>
