@@ -47,7 +47,7 @@
                 $projects = array(<<<EOS
                 <div class="col-sm-4 mb-4">
                     <div class="card">
-                        <img class="card-img-top card-image" src="/assets/img/aitic.png" alt="Network error, image failed to load.">
+                        <img class="card-img-top card-image" src="/assets/img/aitic.webp" alt="Network error, image failed to load.">
                         <div class="card-body">
                             <h4 class="card-title text-center">AI Tic-tac-toe</h4>
                             <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalZero">More</button>
@@ -74,7 +74,7 @@
                 <<<EOS
                 <div class="col-sm-4 mb-4">
                     <div class="card">
-                        <img class="card-img-top card-image" src="/assets/img/rc4.png" alt="Network error, image failed to load.">
+                        <img class="card-img-top card-image" src="/assets/img/rc4.webp" alt="Network error, image failed to load.">
                         <div class="card-body">
                             <h4 class="card-title text-center">RC4-drop</h4>
                             <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalOne">More</button>
@@ -101,7 +101,7 @@
                 <<<EOS
                 <div class="col-sm-4 mb-4">
                     <div class="card">
-                        <img class="card-img-top card-image" src="/assets/img/cp.png" alt="Network error, image failed to load.">
+                        <img class="card-img-top card-image" src="/assets/img/cp.webp" alt="Network error, image failed to load.">
                         <div class="card-body">
                             <h4 class="card-title text-center">Competitive Programming</h4>
                             <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalTwo">More</button>
@@ -128,7 +128,7 @@
                 <<<EOS
                 <div class="col-sm-4 mb-4">
                     <div class="card">
-                        <img class="card-img-top card-image" src="/assets/img/ctfoj.png" alt="Network error, image failed to load.">
+                        <img class="card-img-top card-image" src="/assets/img/ctfoj.webp" alt="Network error, image failed to load.">
                         <div class="card-body">
                             <h4 class="card-title text-center">CTFOJ</h4>
                             <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalThree">More</button>
@@ -155,7 +155,7 @@
                 <<<EOS
                 <div class="col-sm-4 mb-4">
                     <div class="card">
-                        <img class="card-img-top card-image" src="/assets/img/website.png" alt="Network error, image failed to load.">
+                        <img class="card-img-top card-image" src="/assets/img/website.webp" alt="Network error, image failed to load.">
                         <div class="card-body">
                             <h4 class="card-title text-center">Personal Website</h4>
                             <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalFour">More</button>
@@ -182,7 +182,7 @@
                 <<<EOS
                 <div class="col-sm-4 mb-4">
                     <div class="card">
-                        <img class="card-img-top card-image" src="/assets/img/subdl.png" alt="Network error, image failed to load.">
+                        <img class="card-img-top card-image" src="/assets/img/subdl.webp" alt="Network error, image failed to load.">
                         <div class="card-body">
                             <h4 class="card-title text-center">Submission-Downloader</h4>
                             <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalFive">More</button>
@@ -209,7 +209,7 @@
                 <<<EOS
                 <div class="col-sm-4 mb-4">
                     <div class="card">
-                        <img class="card-img-top card-image" src="/assets/img/exactum.png" alt="Network error, image failed to load.">
+                        <img class="card-img-top card-image" src="/assets/img/exactum.webp" alt="Network error, image failed to load.">
                         <div class="card-body">
                             <h4 class="card-title text-center">Exactum</h4>
                             <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalSix">More</button>
@@ -236,7 +236,7 @@
                 <<<EOS
                 <div class="col-sm-4 mb-4">
                     <div class="card">
-                        <img class="card-img-top card-image" src="/assets/img/conway.png" alt="Network error, image failed to load.">
+                        <img class="card-img-top card-image" src="/assets/img/conway.webp" alt="Network error, image failed to load.">
                         <div class="card-body">
                             <h4 class="card-title text-center">Conway's Game of Life</h4>
                             <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalSeven">More</button>
@@ -263,7 +263,7 @@
                 <<<EOS
                 <div class="col-sm-4 mb-4">
                     <div class="card">
-                        <img class="card-img-top card-image" src="/assets/img/track.png" alt="Network error, image failed to load.">
+                        <img class="card-img-top card-image" src="/assets/img/track.webp" alt="Network error, image failed to load.">
                         <div class="card-body">
                             <h4 class="card-title text-center">DIVOC: COVID Tracker</h4>
                             <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalEight">More</button>
@@ -290,7 +290,7 @@
                 <<<EOS
                 <div class="col-sm-4 mb-4">
                     <div class="card">
-                        <img class="card-img-top card-image" src="/assets/img/markov.png" alt="Network error, image failed to load.">
+                        <img class="card-img-top card-image" src="/assets/img/markov.webp" alt="Network error, image failed to load.">
                         <div class="card-body">
                             <h4 class="card-title text-center">Simple-Markov</h4>
                             <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalNine">More</button>
@@ -317,7 +317,7 @@
                 <<<EOS
                 <div class="col-sm-4 mb-4">
                     <div class="card">
-                        <img class="card-img-top card-image" src="/assets/img/aesecb.png" alt="Network error, image failed to load.">
+                        <img class="card-img-top card-image" src="/assets/img/aesecb.webp" alt="Network error, image failed to load.">
                         <div class="card-body">
                             <h4 class="card-title text-center">Cryptography Challenges</h4>
                             <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalTen">More</button>
@@ -344,7 +344,7 @@
                 <<<EOS
                 <div class="col-sm-4 mb-4">
                     <div class="card">
-                        <img class="card-img-top card-image" src="/assets/img/mt.png" alt="Network error, image failed to load.">
+                        <img class="card-img-top card-image" src="/assets/img/mt.webp" alt="Network error, image failed to load.">
                         <div class="card-body">
                             <h4 class="card-title text-center">Mersenne Twister Tools</h4>
                             <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalEleven">More</button>
