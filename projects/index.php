@@ -39,7 +39,7 @@
         </div>
         <hr>
         <div class="alert alert-success alert-dismissible fade show" role="alert">
-            <span>12 projects retrieved. These are just a few of my projects—all of the other ones are available on my <a href="https://github.com/slightlyskepticalpotat">Github</a>.</span>
+            <span>14 projects retrieved. These are just a few of my projects—all of the other ones are available on my <a href="https://github.com/slightlyskepticalpotat">Github</a>.</span>
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
         <div class="row">
@@ -49,7 +49,7 @@
                     <div class="card">
                         <img class="card-img-top card-image" src="/assets/img/aitic.webp" alt="Network error, image failed to load.">
                         <div class="card-body">
-                            <h4 class="card-title text-center">AI Tic-tac-toe</h4>
+                            <h4 class="card-title text-center">ai-tictactoe</h4>
                             <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalZero">More</button>
                             <a href="https://github.com/slightlyskepticalpotat/ai-tictactoe">
                                 <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
@@ -59,7 +59,7 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h3 class="modal-title" id="modalZeroLabel">AI Tic-tac-toe</h3>
+                                        <h3 class="modal-title" id="modalZeroLabel">ai-tictactoe</h3>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
@@ -103,7 +103,7 @@
                     <div class="card">
                         <img class="card-img-top card-image" src="/assets/img/cp.webp" alt="Network error, image failed to load.">
                         <div class="card-body">
-                            <h4 class="card-title text-center">Competitive Programming</h4>
+                            <h4 class="card-title text-center">programming-solutions</h4>
                             <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalTwo">More</button>
                             <a href="https://github.com/slightlyskepticalpotat/programming-solutions">
                                 <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
@@ -113,7 +113,7 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h3 class="modal-title" id="modalTwoLabel">Competitive Programming</h3>
+                                        <h3 class="modal-title" id="modalTwoLabel">programming-solutions</h3>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
@@ -157,7 +157,7 @@
                     <div class="card">
                         <img class="card-img-top card-image" src="/assets/img/website.webp" alt="Network error, image failed to load.">
                         <div class="card-body">
-                            <h4 class="card-title text-center">Personal Website</h4>
+                            <h4 class="card-title text-center">chenanthony.com</h4>
                             <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalFour">More</button>
                             <a href="https://github.com/slightlyskepticalpotat/chenanthony">
                                 <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
@@ -167,7 +167,7 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h3 class="modal-title" id="modalFourLabel">Personal Website</h3>
+                                        <h3 class="modal-title" id="modalFourLabel">chenanthony.com</h3>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
@@ -184,7 +184,7 @@
                     <div class="card">
                         <img class="card-img-top card-image" src="/assets/img/subdl.webp" alt="Network error, image failed to load.">
                         <div class="card-body">
-                            <h4 class="card-title text-center">Submission-Downloader</h4>
+                            <h4 class="card-title text-center">submission-downloader</h4>
                             <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalFive">More</button>
                             <a href="https://github.com/slightlyskepticalpotat/submission-downloader">
                                 <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
@@ -194,7 +194,7 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h3 class="modal-title" id="modalFiveLabel">Submission-Downloader</h3>
+                                        <h3 class="modal-title" id="modalFiveLabel">submission-downloader</h3>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
@@ -211,7 +211,7 @@
                     <div class="card">
                         <img class="card-img-top card-image" src="/assets/img/exactum.webp" alt="Network error, image failed to load.">
                         <div class="card-body">
-                            <h4 class="card-title text-center">Exactum</h4>
+                            <h4 class="card-title text-center">exactum</h4>
                             <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalSix">More</button>
                             <a href="https://github.com/slightlyskepticalpotat/exactum">
                                 <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
@@ -221,7 +221,7 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h3 class="modal-title" id="modalSixLabel">Exactum</h3>
+                                        <h3 class="modal-title" id="modalSixLabel">exactum</h3>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
@@ -238,7 +238,7 @@
                     <div class="card">
                         <img class="card-img-top card-image" src="/assets/img/conway.webp" alt="Network error, image failed to load.">
                         <div class="card-body">
-                            <h4 class="card-title text-center">Conway's Game of Life</h4>
+                            <h4 class="card-title text-center">zoetrope-game-of-life</h4>
                             <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalSeven">More</button>
                             <a href="https://github.com/slightlyskepticalpotat/zoetrope-game-of-life">
                                 <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
@@ -248,7 +248,7 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h3 class="modal-title" id="modalSevenLabel">Conway's Game of Life</h3>
+                                        <h3 class="modal-title" id="modalSevenLabel">zoetrope-game-of-life</h3>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
@@ -265,7 +265,7 @@
                     <div class="card">
                         <img class="card-img-top card-image" src="/assets/img/track.webp" alt="Network error, image failed to load.">
                         <div class="card-body">
-                            <h4 class="card-title text-center">DIVOC: COVID Tracker</h4>
+                            <h4 class="card-title text-center">divoc: covid tracker</h4>
                             <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalEight">More</button>
                             <a href="https://github.com/slightlyskepticalpotat/divoc">
                                 <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
@@ -275,7 +275,7 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h3 class="modal-title" id="modalEightLabel">DIVOC: COVID Tracker</h3>
+                                        <h3 class="modal-title" id="modalEightLabel">divoc: covid tracker</h3>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
@@ -292,7 +292,7 @@
                     <div class="card">
                         <img class="card-img-top card-image" src="/assets/img/markov.webp" alt="Network error, image failed to load.">
                         <div class="card-body">
-                            <h4 class="card-title text-center">Simple-Markov</h4>
+                            <h4 class="card-title text-center">simple-markov</h4>
                             <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalNine">More</button>
                             <a href="https://github.com/slightlyskepticalpotat/simple-markov">
                                 <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
@@ -302,11 +302,11 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h3 class="modal-title" id="modalNineLabel">Simple-Markov</h3>
+                                        <h3 class="modal-title" id="modalNineLabel">simple-markov</h3>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <p>A fast and simple <a href="https://en.wikipedia.org/wiki/Markov_chain">Markov chain</a>-based text generator written in C++. The number of preceding states used, temperature of the generated text (how "random" it looks), and number of words to generate are all configurable. Can be used to generate words letter-by-letter, or sentences word-by-word. Flask frontend accessible online <a href="https://chenanthony.com/apps/markov/">here</a>.</p>
+                                        <p>A fast and simple <a href="https://en.wikipedia.org/wiki/Markov_chain">Markov chain</a>-based text generator written in C++. The number of preceding states used, temperature of the generated text (how "random" it looks), and number of words to generate are all configurable. Can be used to generate words letter-by-letter, sentences word-by-word, and [indirectly] paragraphs sentence-by_sentence.</p>
                                     </div>
                                 </div>
                             </div>
@@ -319,7 +319,7 @@
                     <div class="card">
                         <img class="card-img-top card-image" src="/assets/img/aesecb.webp" alt="Network error, image failed to load.">
                         <div class="card-body">
-                            <h4 class="card-title text-center">Cryptography Challenges</h4>
+                            <h4 class="card-title text-center">cryptopals-solutions</h4>
                             <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalTen">More</button>
                             <a href="https://github.com/slightlyskepticalpotat/cryptopals-solutions">
                                 <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
@@ -329,7 +329,7 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h3 class="modal-title" id="modalTenLabel">Cryptography Challenges</h3>
+                                        <h3 class="modal-title" id="modalTenLabel">cryptopals-solutions</h3>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
@@ -346,7 +346,7 @@
                     <div class="card">
                         <img class="card-img-top card-image" src="/assets/img/mt.webp" alt="Network error, image failed to load.">
                         <div class="card-body">
-                            <h4 class="card-title text-center">Mersenne Twister Tools</h4>
+                            <h4 class="card-title text-center">mersenne-twister-tools</h4>
                             <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalEleven">More</button>
                             <a href="https://github.com/slightlyskepticalpotat/mersenne-twister-tools">
                                 <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
@@ -356,11 +356,65 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h3 class="modal-title" id="modalElevenLabel">Mersenne Twister Tools</h3>
+                                        <h3 class="modal-title" id="modalElevenLabel">mersenne-twister-tools</h3>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
                                         <p>A collection of various programs that implement or relate to the popular <a href="https://en.wikipedia.org/wiki/Mersenne_Twister">Mersenne Twister</a> PRNG in some way. Intended to be a simple implementation that users can build off of. Includes the original 32 and 64-bit versions, other popular variants, programs to crack the state of the Mersenne Twister, and programs to time travel and reverse the Mersenne Twister.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                EOS,
+                <<<EOS
+                <div class="col-sm-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top card-image" src="/assets/img/stonk.webp" alt="Network error, image failed to load.">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">stonktrack</h4>
+                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalTwelve">More</button>
+                            <a href="https://github.com/slightlyskepticalpotat/stonktrack">
+                                <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
+                            </a>
+                        </div>
+                        <div class="modal fade" id="modalTwelve" tabindex="-1" aria-labelledby="modalTwelveLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title" id="modalTwelveLabel">stonktrack</h3>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>A financial tracker that can track stocks, cryptocurrencies, forexes, and more with simple configuration files and a terminal-based gui. It's built with Python and <a href="http://urwid.org/">urwid</a>, and it's superior to other terminal stock trackers because of the real-time data, variety of assets, and unlimited free updates. Comes with coloured and scrollable versions.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                EOS,
+                <<<EOS
+                <div class="col-sm-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top card-image" src="/assets/img/flask.webp" alt="Network error, image failed to load.">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">simple-markov-flask</h4>
+                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalThirteen">More</button>
+                            <a href="https://github.com/slightlyskepticalpotat/simple-markov-flask">
+                                <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
+                            </a>
+                        </div>
+                        <div class="modal fade" id="modalThirteen" tabindex="-1" aria-labelledby="modalThirteenLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title" id="modalThirteenLabel">simple-markov-flask</h3>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>A Flask frontend for the <a href="https://github.com/slightlyskepticalpotat/simple-markov">simple-markov</a> script, it seamlessly integrates an HTML/JS/CSS frontend with the original C++ program serving as the backend. It also uses hCAPTCHA to prevent Denial of Service attacks while still respecting users' privacy. It's hosted on this site <a href="https://chenanthony.com/apps/markov/">here</a>, and users can upload custom text training data to test it.</p>
                                     </div>
                                 </div>
                             </div>
