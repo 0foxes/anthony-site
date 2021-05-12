@@ -2,7 +2,16 @@
     font-family: "Open Sans", sans-serif;
 }
 
-.navbar-dark, .navbar-nav, .nav-link, .navbar-brand, h1, h2, h3, h4, h5, h6 {
+.navbar-dark,
+.navbar-nav,
+.nav-link,
+.navbar-brand,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Ubuntu", sans-serif;
 }
 
@@ -53,6 +62,7 @@
     object-fit: cover;
 }
 
+
 /* blinking class for underscores and the like */
 .blinking {
     animation: 1.2s blink step-end infinite;
@@ -92,8 +102,10 @@
     }
 }
 
+
 /* make bootstrap buttons and links look better */
-.icon, .btn {
+.icon,
+.btn {
     color: slateblue;
 }
 
@@ -115,6 +127,7 @@
     border-color: slateblue;
 }
 
+
 /* add bottom border to nav elements */
 .nav-link.active {
     border-bottom: 4px solid;
@@ -123,7 +136,7 @@
 
 .nav-link:hover:not(.active) {
     border-bottom: 4px solid;
-    border-color: rgba(255,255,255,.55);
+    border-color: rgba(255, 255, 255, .55);
 }
 
 .navbar-brand {
@@ -133,4 +146,14 @@
 
 .navbar-brand:hover {
     border-color: royalblue;
+}
+
+
+/* style the search box now */
+.search-box {
+    background-color: #212529;
+    color: white;
+    border: 4px solid;
+    border-color: slateblue;
+    border-radius: .25rem;
 }
