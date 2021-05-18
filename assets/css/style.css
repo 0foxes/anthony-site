@@ -170,3 +170,11 @@ h6 {
 .search-box:hover {
     border-color: royalblue;
 }
+
+
+/* style the random image on the homepage */
+.rand-img {
+    height: 256px;
+    width: 256px;
+    object-fit: cover;
+}

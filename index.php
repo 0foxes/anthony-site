@@ -48,10 +48,10 @@
                 <p>I'm a high schooler currently attending the <a href="http://www.topsprogram.ca/">TOPS Program</a> at Marc Garneau CI; my favourite subjects are computer science, math, and science. I enjoy programming, reading, writing, playing chess, gaming, and tinkering with technology in my spare time. This website is home to my <a href="/resume/">résumé</a>, some of my <a href="/projects/">projects</a>, and my <a href="/blog/">blog</a>—check them out! If you want to contact me, there are a variety of contact methods that you can use in the footer.</p>
             </div>
             <div class="col-sm-4">
-                <img class="float-end" src="https://picsum.photos/256/256?blur=1?random=2" alt="Network error, image failed to load."></img>
+                <img class="float-end" src="https://picsum.photos/256/256?blur=1&random=2" alt="Network error, image failed to load."></img>
             </div>
             <div class="col-sm-4">
-                <img class="float-end" src="https://picsum.photos/256/256?blur=1?random=3" alt="Network error, image failed to load."></img>
+                <img class="float-end rand-img" src="/assets/img/rand/<?php echo rand(1, 4); ?>.webp" alt="Network error, image failed to load."></img>
             </div>
         </div>
         <hr>
