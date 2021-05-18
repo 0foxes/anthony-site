@@ -42,395 +42,407 @@
             <h1>Projects<span class="blinking">_</span></h1>
         </div>
         <hr>
-        <div class="alert alert-success alert-dismissible fade show" role="alert">
-            <span>14 projects retrieved. These are just a few of my projects—all of the other ones are available on my <a href="https://github.com/slightlyskepticalpotat">Github</a>.</span>
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-        </div>
-        <div class="row">
-            <?php
-                $projects = array(<<<EOS
-                <div class="col-sm-4 mb-4">
-                    <div class="card">
-                        <img class="card-img-top card-image" loading="lazy" src="/assets/img/aitic.webp" alt="Network error, image failed to load.">
-                        <div class="card-body">
-                            <h4 class="card-title text-center">ai-tictactoe</h4>
-                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalZero">More</button>
-                            <a href="https://github.com/slightlyskepticalpotat/ai-tictactoe">
-                                <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
-                            </a>
-                        </div>
-                        <div class="modal fade" id="modalZero" tabindex="-1" aria-labelledby="modalZeroLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h3 class="modal-title" id="modalZeroLabel">ai-tictactoe</h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <p>An object-oriented tic-tac-toe game with an artificial intelligence. Tic-tac-toe is a sovled game, and the AI always plays the optimal move. It uses the <a href="https://en.wikipedia.org/wiki/Minimax">minimax</a> algorithm with <a href="https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning">alpha-beta pruning</a>. There is also a move recommendation feature for players who are new to tic-tac-toe. Finally, this program can be modified to play other games like Gomuku and Connect Four.</p>
+        <nav>
+            <div class="nav nav-tabs mb-4" id="nav-tab" role="tablist">
+                <button class="nav-link nav-tab-style active" id="nav-featured-tab" data-bs-toggle="tab" data-bs-target="#nav-featured" type="button" role="tab" aria-controls="nav-featured" aria-selected="true">Featured</button>
+                <button class="nav-link nav-tab-style" id="nav-all-tab" data-bs-toggle="tab" data-bs-target="#nav-all" type="button" role="tab" aria-controls="nav-all" aria-selected="false">All</button>
+            </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-featured" role="tabpanel" aria-labelledby="nav-featured-tab">
+                <p>placeholder text</p>
+            </div>
+            <div class="tab-pane fade" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab">
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <span>14 projects retrieved. These are just a few of my projects—all of the other ones are available on my <a href="https://github.com/slightlyskepticalpotat">Github</a>.</span>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                <div class="row">
+                    <?php
+                        $projects = array(<<<EOS
+                        <div class="col-sm-4 mb-4">
+                            <div class="card">
+                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/aitic.webp" alt="Network error, image failed to load.">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">ai-tictactoe</h4>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalZero">More</button>
+                                    <a href="https://github.com/slightlyskepticalpotat/ai-tictactoe">
+                                        <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
+                                    </a>
+                                </div>
+                                <div class="modal fade" id="modalZero" tabindex="-1" aria-labelledby="modalZeroLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title" id="modalZeroLabel">ai-tictactoe</h3>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>An object-oriented tic-tac-toe game with an artificial intelligence. Tic-tac-toe is a sovled game, and the AI always plays the optimal move. It uses the <a href="https://en.wikipedia.org/wiki/Minimax">minimax</a> algorithm with <a href="https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning">alpha-beta pruning</a>. There is also a move recommendation feature for players who are new to tic-tac-toe. Finally, this program can be modified to play other games like Gomuku and Connect Four.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                EOS,
-                <<<EOS
-                <div class="col-sm-4 mb-4">
-                    <div class="card">
-                        <img class="card-img-top card-image" loading="lazy" src="/assets/img/rc4.webp" alt="Network error, image failed to load.">
-                        <div class="card-body">
-                            <h4 class="card-title text-center">RC4-drop</h4>
-                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalOne">More</button>
-                            <a href="https://github.com/slightlyskepticalpotat/RC4-drop">
-                                <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
-                            </a>
-                        </div>
-                        <div class="modal fade" id="modalOne" tabindex="-1" aria-labelledby="modalOneLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h3 class="modal-title" id="modalOneLabel">RC4-drop</h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <p>An object-oriented implemention of RC4-drop[n], a modification of the simple and speedy RC4 stream cipher that defends against the Fluhrer, Mantin and Shamir attack by discarding the first n bytes of the keystream after key generation. Can also be used as regular RC4 by setting n = 0, or a performant pseudorandom number generator.</p>
+                        EOS,
+                        <<<EOS
+                        <div class="col-sm-4 mb-4">
+                            <div class="card">
+                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/rc4.webp" alt="Network error, image failed to load.">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">RC4-drop</h4>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalOne">More</button>
+                                    <a href="https://github.com/slightlyskepticalpotat/RC4-drop">
+                                        <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
+                                    </a>
+                                </div>
+                                <div class="modal fade" id="modalOne" tabindex="-1" aria-labelledby="modalOneLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title" id="modalOneLabel">RC4-drop</h3>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>An object-oriented implemention of RC4-drop[n], a modification of the simple and speedy RC4 stream cipher that defends against the Fluhrer, Mantin and Shamir attack by discarding the first n bytes of the keystream after key generation. Can also be used as regular RC4 by setting n = 0, or a performant pseudorandom number generator.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                EOS,
-                <<<EOS
-                <div class="col-sm-4 mb-4">
-                    <div class="card">
-                        <img class="card-img-top card-image" loading="lazy" src="/assets/img/cp.webp" alt="Network error, image failed to load.">
-                        <div class="card-body">
-                            <h4 class="card-title text-center">programming-solutions</h4>
-                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalTwo">More</button>
-                            <a href="https://github.com/slightlyskepticalpotat/programming-solutions">
-                                <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
-                            </a>
-                        </div>
-                        <div class="modal fade" id="modalTwo" tabindex="-1" aria-labelledby="modalTwoLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h3 class="modal-title" id="modalTwoLabel">programming-solutions</h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <p>An archive of correct solutions to problems on various online judges, programming challenges, and contests. Includes code from DMOJ, Codeforces, the CCC, the CCO, the USACO, the Google Foobar challenge, and more.</p>
+                        EOS,
+                        <<<EOS
+                        <div class="col-sm-4 mb-4">
+                            <div class="card">
+                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/cp.webp" alt="Network error, image failed to load.">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">programming-solutions</h4>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalTwo">More</button>
+                                    <a href="https://github.com/slightlyskepticalpotat/programming-solutions">
+                                        <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
+                                    </a>
+                                </div>
+                                <div class="modal fade" id="modalTwo" tabindex="-1" aria-labelledby="modalTwoLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title" id="modalTwoLabel">programming-solutions</h3>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>An archive of correct solutions to problems on various online judges, programming challenges, and contests. Includes code from DMOJ, Codeforces, the CCC, the CCO, the USACO, the Google Foobar challenge, and more.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                EOS,
-                <<<EOS
-                <div class="col-sm-4 mb-4">
-                    <div class="card">
-                        <img class="card-img-top card-image" loading="lazy" src="/assets/img/ctfoj.webp" alt="Network error, image failed to load.">
-                        <div class="card-body">
-                            <h4 class="card-title text-center">CTFOJ</h4>
-                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalThree">More</button>
-                            <a href="https://github.com/jdabtieu/CTFOJ">
-                                <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
-                            </a>
-                        </div>
-                        <div class="modal fade" id="modalThree" tabindex="-1" aria-labelledby="modalThreeLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h3 class="modal-title" id="modalThreeLabel">CTFOJ</h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <p>An open-source online judge specifically designed for hosting interactive cybersecurity challenges and contests. Features include practice problems, contests, an admin console, two-factor authentication, a comprehensive test suite, and live rankings. Built with Flask, in collaboration with <a href="https://github.com/jdabtieu/">jdabtieu</a>.</p>
+                        EOS,
+                        <<<EOS
+                        <div class="col-sm-4 mb-4">
+                            <div class="card">
+                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/ctfoj.webp" alt="Network error, image failed to load.">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">CTFOJ</h4>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalThree">More</button>
+                                    <a href="https://github.com/jdabtieu/CTFOJ">
+                                        <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
+                                    </a>
+                                </div>
+                                <div class="modal fade" id="modalThree" tabindex="-1" aria-labelledby="modalThreeLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title" id="modalThreeLabel">CTFOJ</h3>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>An open-source online judge specifically designed for hosting interactive cybersecurity challenges and contests. Features include practice problems, contests, an admin console, two-factor authentication, a comprehensive test suite, and live rankings. Built with Flask, in collaboration with <a href="https://github.com/jdabtieu/">jdabtieu</a>.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                EOS,
-                <<<EOS
-                <div class="col-sm-4 mb-4">
-                    <div class="card">
-                        <img class="card-img-top card-image" loading="lazy" src="/assets/img/website.webp" alt="Network error, image failed to load.">
-                        <div class="card-body">
-                            <h4 class="card-title text-center">chenanthony.com</h4>
-                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalFour">More</button>
-                            <a href="https://github.com/slightlyskepticalpotat/chenanthony">
-                                <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
-                            </a>
-                        </div>
-                        <div class="modal fade" id="modalFour" tabindex="-1" aria-labelledby="modalFourLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h3 class="modal-title" id="modalFourLabel">chenanthony.com</h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <p>A website that hosts a short description of myself, my resume, a listing of my projects with a short description for each one, my contact information, and my blog. Eventually, web applications and PHP applications that I create will also be accessible here. Accessible online at <a href="https://chenanthony.com">chenanthony.com</a>.</p>
+                        EOS,
+                        <<<EOS
+                        <div class="col-sm-4 mb-4">
+                            <div class="card">
+                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/website.webp" alt="Network error, image failed to load.">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">chenanthony.com</h4>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalFour">More</button>
+                                    <a href="https://github.com/slightlyskepticalpotat/chenanthony">
+                                        <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
+                                    </a>
+                                </div>
+                                <div class="modal fade" id="modalFour" tabindex="-1" aria-labelledby="modalFourLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title" id="modalFourLabel">chenanthony.com</h3>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>A website that hosts a short description of myself, my resume, a listing of my projects with a short description for each one, my contact information, and my blog. Eventually, web applications and PHP applications that I create will also be accessible here. Accessible online at <a href="https://chenanthony.com">chenanthony.com</a>.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                EOS,
-                <<<EOS
-                <div class="col-sm-4 mb-4">
-                    <div class="card">
-                        <img class="card-img-top card-image" loading="lazy" src="/assets/img/subdl.webp" alt="Network error, image failed to load.">
-                        <div class="card-body">
-                            <h4 class="card-title text-center">submission-downloader</h4>
-                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalFive">More</button>
-                            <a href="https://github.com/slightlyskepticalpotat/submission-downloader">
-                                <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
-                            </a>
-                        </div>
-                        <div class="modal fade" id="modalFive" tabindex="-1" aria-labelledby="modalFiveLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h3 class="modal-title" id="modalFiveLabel">submission-downloader</h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <p>A customisable tool used for archiving code submissions in bulk from a wide variety of programming sites. Packaged with the pip package manager, and can easily be modified to archive code from unsupported sites. Especially helpful for creating <a href="https://github.com/slightlyskepticalpotat/programming-solutions">solution archives</a>.</p>
+                        EOS,
+                        <<<EOS
+                        <div class="col-sm-4 mb-4">
+                            <div class="card">
+                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/subdl.webp" alt="Network error, image failed to load.">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">submission-downloader</h4>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalFive">More</button>
+                                    <a href="https://github.com/slightlyskepticalpotat/submission-downloader">
+                                        <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
+                                    </a>
+                                </div>
+                                <div class="modal fade" id="modalFive" tabindex="-1" aria-labelledby="modalFiveLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title" id="modalFiveLabel">submission-downloader</h3>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>A customisable tool used for archiving code submissions in bulk from a wide variety of programming sites. Packaged with the pip package manager, and can easily be modified to archive code from unsupported sites. Especially helpful for creating <a href="https://github.com/slightlyskepticalpotat/programming-solutions">solution archives</a>.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                EOS,
-                <<<EOS
-                <div class="col-sm-4 mb-4">
-                    <div class="card">
-                        <img class="card-img-top card-image" loading="lazy" src="/assets/img/exactum.webp" alt="Network error, image failed to load.">
-                        <div class="card-body">
-                            <h4 class="card-title text-center">exactum</h4>
-                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalSix">More</button>
-                            <a href="https://github.com/slightlyskepticalpotat/exactum">
-                                <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
-                            </a>
-                        </div>
-                        <div class="modal fade" id="modalSix" tabindex="-1" aria-labelledby="modalSixLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h3 class="modal-title" id="modalSixLabel">exactum</h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <p>A flexible web monitoring tool for websites that have no built-in update notification system. Configured with YAML, Exactum supports multi-platform desktop notifications, email notifications, and logging changes to a file. Created during <a href="https://hackthenorth.com/">Hack the North 2020</a> in collaboration with <a href="https://github.com/AlanL2">AlanL2</a> and <a href="https://github.com/Maillew">Maillew</a>. Project website available <a href="https://exactum1.github.io/">here</a>.</p>
+                        EOS,
+                        <<<EOS
+                        <div class="col-sm-4 mb-4">
+                            <div class="card">
+                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/exactum.webp" alt="Network error, image failed to load.">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">exactum</h4>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalSix">More</button>
+                                    <a href="https://github.com/slightlyskepticalpotat/exactum">
+                                        <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
+                                    </a>
+                                </div>
+                                <div class="modal fade" id="modalSix" tabindex="-1" aria-labelledby="modalSixLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title" id="modalSixLabel">exactum</h3>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>A flexible web monitoring tool for websites that have no built-in update notification system. Configured with YAML, Exactum supports multi-platform desktop notifications, email notifications, and logging changes to a file. Created during <a href="https://hackthenorth.com/">Hack the North 2020</a> in collaboration with <a href="https://github.com/AlanL2">AlanL2</a> and <a href="https://github.com/Maillew">Maillew</a>. Project website available <a href="https://exactum1.github.io/">here</a>.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                EOS,
-                <<<EOS
-                <div class="col-sm-4 mb-4">
-                    <div class="card">
-                        <img class="card-img-top card-image" loading="lazy" src="/assets/img/conway.webp" alt="Network error, image failed to load.">
-                        <div class="card-body">
-                            <h4 class="card-title text-center">zoetrope-game-of-life</h4>
-                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalSeven">More</button>
-                            <a href="https://github.com/slightlyskepticalpotat/zoetrope-game-of-life">
-                                <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
-                            </a>
-                        </div>
-                        <div class="modal fade" id="modalSeven" tabindex="-1" aria-labelledby="modalSevenLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h3 class="modal-title" id="modalSevenLabel">zoetrope-game-of-life</h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <p>A high-speed console-based Python implementation of the famous cellular automaton. It appears to move despite being non-animated, much like a <a href="https://en.wikipedia.org/wiki/Zoetrope">Zoetrope</a>. Turing-complete, it can theoretically simulate any computer algorithm in existence. The picture shows a <a href="https://en.wikipedia.org/wiki/Gun_(cellular_automaton)">Gosper glider gun</a> in action.</p>
+                        EOS,
+                        <<<EOS
+                        <div class="col-sm-4 mb-4">
+                            <div class="card">
+                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/conway.webp" alt="Network error, image failed to load.">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">zoetrope-game-of-life</h4>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalSeven">More</button>
+                                    <a href="https://github.com/slightlyskepticalpotat/zoetrope-game-of-life">
+                                        <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
+                                    </a>
+                                </div>
+                                <div class="modal fade" id="modalSeven" tabindex="-1" aria-labelledby="modalSevenLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title" id="modalSevenLabel">zoetrope-game-of-life</h3>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>A high-speed console-based Python implementation of the famous cellular automaton. It appears to move despite being non-animated, much like a <a href="https://en.wikipedia.org/wiki/Zoetrope">Zoetrope</a>. Turing-complete, it can theoretically simulate any computer algorithm in existence. The picture shows a <a href="https://en.wikipedia.org/wiki/Gun_(cellular_automaton)">Gosper glider gun</a> in action.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                EOS,
-                <<<EOS
-                <div class="col-sm-4 mb-4">
-                    <div class="card">
-                        <img class="card-img-top card-image" loading="lazy" src="/assets/img/track.webp" alt="Network error, image failed to load.">
-                        <div class="card-body">
-                            <h4 class="card-title text-center">divoc: covid tracker</h4>
-                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalEight">More</button>
-                            <a href="https://github.com/slightlyskepticalpotat/divoc">
-                                <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
-                            </a>
-                        </div>
-                        <div class="modal fade" id="modalEight" tabindex="-1" aria-labelledby="modalEightLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h3 class="modal-title" id="modalEightLabel">divoc: covid tracker</h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <p>A COVID-19 tracker that uses several public APIs to generate a count of the number of COVID-19 cases within a certain customisable distance of any address in Ontario. Includes a COVID-19 self-assessment tool that takes the number of cases near you into account. Created during <a href="https://www.tohacks.ca">TOHacks 2020</a> in collaboration with <a href="https://github.com/Maillew">Maillew</a> and <a href="https://github.com/tankibuds">tankibuds</a>.</p>
+                        EOS,
+                        <<<EOS
+                        <div class="col-sm-4 mb-4">
+                            <div class="card">
+                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/track.webp" alt="Network error, image failed to load.">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">divoc: covid tracker</h4>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalEight">More</button>
+                                    <a href="https://github.com/slightlyskepticalpotat/divoc">
+                                        <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
+                                    </a>
+                                </div>
+                                <div class="modal fade" id="modalEight" tabindex="-1" aria-labelledby="modalEightLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title" id="modalEightLabel">divoc: covid tracker</h3>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>A COVID-19 tracker that uses several public APIs to generate a count of the number of COVID-19 cases within a certain customisable distance of any address in Ontario. Includes a COVID-19 self-assessment tool that takes the number of cases near you into account. Created during <a href="https://www.tohacks.ca">TOHacks 2020</a> in collaboration with <a href="https://github.com/Maillew">Maillew</a> and <a href="https://github.com/tankibuds">tankibuds</a>.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                EOS,
-                <<<EOS
-                <div class="col-sm-4 mb-4">
-                    <div class="card">
-                        <img class="card-img-top card-image" loading="lazy" src="/assets/img/markov.webp" alt="Network error, image failed to load.">
-                        <div class="card-body">
-                            <h4 class="card-title text-center">simple-markov</h4>
-                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalNine">More</button>
-                            <a href="https://github.com/slightlyskepticalpotat/simple-markov">
-                                <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
-                            </a>
-                        </div>
-                        <div class="modal fade" id="modalNine" tabindex="-1" aria-labelledby="modalNineLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h3 class="modal-title" id="modalNineLabel">simple-markov</h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <p>A fast and simple <a href="https://en.wikipedia.org/wiki/Markov_chain">Markov chain</a>-based text generator written in C++. The number of preceding states used, temperature of the generated text (how "random" it looks), and number of words to generate are all configurable. Can be used to generate words letter-by-letter, sentences word-by-word, and [indirectly] paragraphs sentence-by_sentence.</p>
+                        EOS,
+                        <<<EOS
+                        <div class="col-sm-4 mb-4">
+                            <div class="card">
+                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/markov.webp" alt="Network error, image failed to load.">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">simple-markov</h4>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalNine">More</button>
+                                    <a href="https://github.com/slightlyskepticalpotat/simple-markov">
+                                        <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
+                                    </a>
+                                </div>
+                                <div class="modal fade" id="modalNine" tabindex="-1" aria-labelledby="modalNineLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title" id="modalNineLabel">simple-markov</h3>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>A fast and simple <a href="https://en.wikipedia.org/wiki/Markov_chain">Markov chain</a>-based text generator written in C++. The number of preceding states used, temperature of the generated text (how "random" it looks), and number of words to generate are all configurable. Can be used to generate words letter-by-letter, sentences word-by-word, and [indirectly] paragraphs sentence-by_sentence.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                EOS,
-                <<<EOS
-                <div class="col-sm-4 mb-4">
-                    <div class="card">
-                        <img class="card-img-top card-image" loading="lazy" src="/assets/img/aesecb.webp" alt="Network error, image failed to load.">
-                        <div class="card-body">
-                            <h4 class="card-title text-center">cryptopals-solutions</h4>
-                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalTen">More</button>
-                            <a href="https://github.com/slightlyskepticalpotat/cryptopals-solutions">
-                                <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
-                            </a>
-                        </div>
-                        <div class="modal fade" id="modalTen" tabindex="-1" aria-labelledby="modalTenLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h3 class="modal-title" id="modalTenLabel">cryptopals-solutions</h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <p>A repository of my solutions to the <a href="http://cryptopals.com/">cryptopals</a> cryptography challenges. Common advice is to "never roll your own". However, this advice should be amended to "never use your own". With the rise in digital threats, any computer programmer should at least have a basic understanding of cryptography. And what better way to learn than by doing?</p>
+                        EOS,
+                        <<<EOS
+                        <div class="col-sm-4 mb-4">
+                            <div class="card">
+                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/aesecb.webp" alt="Network error, image failed to load.">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">cryptopals-solutions</h4>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalTen">More</button>
+                                    <a href="https://github.com/slightlyskepticalpotat/cryptopals-solutions">
+                                        <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
+                                    </a>
+                                </div>
+                                <div class="modal fade" id="modalTen" tabindex="-1" aria-labelledby="modalTenLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title" id="modalTenLabel">cryptopals-solutions</h3>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>A repository of my solutions to the <a href="http://cryptopals.com/">cryptopals</a> cryptography challenges. Common advice is to "never roll your own". However, this advice should be amended to "never use your own". With the rise in digital threats, any computer programmer should at least have a basic understanding of cryptography. And what better way to learn than by doing?</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                EOS,
-                <<<EOS
-                <div class="col-sm-4 mb-4">
-                    <div class="card">
-                        <img class="card-img-top card-image" loading="lazy" src="/assets/img/mt.webp" alt="Network error, image failed to load.">
-                        <div class="card-body">
-                            <h4 class="card-title text-center">mersenne-twister-tools</h4>
-                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalEleven">More</button>
-                            <a href="https://github.com/slightlyskepticalpotat/mersenne-twister-tools">
-                                <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
-                            </a>
-                        </div>
-                        <div class="modal fade" id="modalEleven" tabindex="-1" aria-labelledby="modalElevenLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h3 class="modal-title" id="modalElevenLabel">mersenne-twister-tools</h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <p>A collection of various programs that implement or relate to the popular <a href="https://en.wikipedia.org/wiki/Mersenne_Twister">Mersenne Twister</a> PRNG in some way. Intended to be a simple implementation that users can build off of. Includes the original 32 and 64-bit versions, other popular variants, programs to crack the state of the Mersenne Twister, and programs to time travel and reverse the Mersenne Twister.</p>
+                        EOS,
+                        <<<EOS
+                        <div class="col-sm-4 mb-4">
+                            <div class="card">
+                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/mt.webp" alt="Network error, image failed to load.">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">mersenne-twister-tools</h4>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalEleven">More</button>
+                                    <a href="https://github.com/slightlyskepticalpotat/mersenne-twister-tools">
+                                        <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
+                                    </a>
+                                </div>
+                                <div class="modal fade" id="modalEleven" tabindex="-1" aria-labelledby="modalElevenLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title" id="modalElevenLabel">mersenne-twister-tools</h3>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>A collection of various programs that implement or relate to the popular <a href="https://en.wikipedia.org/wiki/Mersenne_Twister">Mersenne Twister</a> PRNG in some way. Intended to be a simple implementation that users can build off of. Includes the original 32 and 64-bit versions, other popular variants, programs to crack the state of the Mersenne Twister, and programs to time travel and reverse the Mersenne Twister.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                EOS,
-                <<<EOS
-                <div class="col-sm-4 mb-4">
-                    <div class="card">
-                        <img class="card-img-top card-image" loading="lazy" src="/assets/img/stonk.webp" alt="Network error, image failed to load.">
-                        <div class="card-body">
-                            <h4 class="card-title text-center">stonktrack</h4>
-                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalTwelve">More</button>
-                            <a href="https://github.com/slightlyskepticalpotat/stonktrack">
-                                <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
-                            </a>
-                        </div>
-                        <div class="modal fade" id="modalTwelve" tabindex="-1" aria-labelledby="modalTwelveLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h3 class="modal-title" id="modalTwelveLabel">stonktrack</h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <p>A financial tracker that can track stocks, cryptocurrencies, forexes, and more with simple configuration files and a terminal-based gui. It's built with Python and <a href="http://urwid.org/">urwid</a>, and it's superior to other terminal stock trackers because of the real-time data, variety of assets, and unlimited free updates. Comes with coloured and scrollable versions.</p>
+                        EOS,
+                        <<<EOS
+                        <div class="col-sm-4 mb-4">
+                            <div class="card">
+                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/stonk.webp" alt="Network error, image failed to load.">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">stonktrack</h4>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalTwelve">More</button>
+                                    <a href="https://github.com/slightlyskepticalpotat/stonktrack">
+                                        <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
+                                    </a>
+                                </div>
+                                <div class="modal fade" id="modalTwelve" tabindex="-1" aria-labelledby="modalTwelveLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title" id="modalTwelveLabel">stonktrack</h3>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>A financial tracker that can track stocks, cryptocurrencies, forexes, and more with simple configuration files and a terminal-based gui. It's built with Python and <a href="http://urwid.org/">urwid</a>, and it's superior to other terminal stock trackers because of the real-time data, variety of assets, and unlimited free updates. Comes with coloured and scrollable versions.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                EOS,
-                <<<EOS
-                <div class="col-sm-4 mb-4">
-                    <div class="card">
-                        <img class="card-img-top card-image" loading="lazy" src="/assets/img/flask.webp" alt="Network error, image failed to load.">
-                        <div class="card-body">
-                            <h4 class="card-title text-center">simple-markov-flask</h4>
-                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalThirteen">More</button>
-                            <a href="https://github.com/slightlyskepticalpotat/simple-markov-flask">
-                                <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
-                            </a>
-                        </div>
-                        <div class="modal fade" id="modalThirteen" tabindex="-1" aria-labelledby="modalThirteenLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h3 class="modal-title" id="modalThirteenLabel">simple-markov-flask</h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <p>A Flask frontend for the <a href="https://github.com/slightlyskepticalpotat/simple-markov">simple-markov</a> script, it seamlessly integrates an HTML/JS/CSS frontend with the original C++ program serving as the backend. It also uses hCAPTCHA to prevent Denial of Service attacks while still respecting users' privacy. It's hosted on this site <a href="https://chenanthony.com/apps/markov/">here</a>, and users can upload custom text training data to test it.</p>
+                        EOS,
+                        <<<EOS
+                        <div class="col-sm-4 mb-4">
+                            <div class="card">
+                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/flask.webp" alt="Network error, image failed to load.">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">simple-markov-flask</h4>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalThirteen">More</button>
+                                    <a href="https://github.com/slightlyskepticalpotat/simple-markov-flask">
+                                        <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
+                                    </a>
+                                </div>
+                                <div class="modal fade" id="modalThirteen" tabindex="-1" aria-labelledby="modalThirteenLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title" id="modalThirteenLabel">simple-markov-flask</h3>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>A Flask frontend for the <a href="https://github.com/slightlyskepticalpotat/simple-markov">simple-markov</a> script, it seamlessly integrates an HTML/JS/CSS frontend with the original C++ program serving as the backend. It also uses hCAPTCHA to prevent Denial of Service attacks while still respecting users' privacy. It's hosted on this site <a href="https://chenanthony.com/apps/markov/">here</a>, and users can upload custom text training data to test it.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                        EOS
+                        );
+                        shuffle($projects);
+                        echo(implode("", $projects));
+                    ?>
                 </div>
-                EOS
-                );
-                shuffle($projects);
-                echo(implode("", $projects));
-            ?>
-        </div>
+            </div>
         <hr>
     </div>
 </body>

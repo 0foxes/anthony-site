@@ -134,9 +134,18 @@ h6 {
     border-color: white;
 }
 
-.nav-link:hover:not(.active) {
+.nav-link.active:hover {
+    border-color: royalblue;
+}
+
+.nav-tab-style.active {
     border-bottom: 4px solid;
-    border-color: rgba(255, 255, 255, .55);
+    border-bottom-color: slateblue!important;
+}
+
+.nav-tab-style.active:hover {
+    border-color: #dee2e6;
+    border-bottom-color: royalblue!important;
 }
 
 .navbar-brand {
@@ -156,4 +165,8 @@ h6 {
     border: 4px solid;
     border-color: slateblue;
     border-radius: .25rem;
+}
+
+.search-box:hover {
+    border-color: royalblue;
 }
