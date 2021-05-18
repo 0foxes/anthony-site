@@ -50,11 +50,183 @@
         </nav>
         <div class="tab-content" id="nav-tabContent">
             <div class="tab-pane fade show active" id="nav-featured" role="tabpanel" aria-labelledby="nav-featured-tab">
-                <p>placeholder text</p>
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <span>6 projects retrieved. These are just a few of my projects—check out the All tab and my <a href="https://github.com/slightlyskepticalpotat">Github</a>!</span>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                <div class="row">
+                    <?php
+                        $projects = array(<<<EOS
+                        <div class="col-sm-4 mb-4">
+                            <div class="card">
+                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/ctfoj.webp" alt="Network error, image failed to load.">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">CTFOJ</h4>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalThree">More</button>
+                                    <a href="https://github.com/jdabtieu/CTFOJ">
+                                        <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
+                                    </a>
+                                </div>
+                                <div class="modal fade" id="modalThree" tabindex="-1" aria-labelledby="modalThreeLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title" id="modalThreeLabel">CTFOJ</h3>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>An open-source online judge specifically designed for hosting interactive cybersecurity challenges and contests. Features include practice problems, contests, an admin console, two-factor authentication, a comprehensive test suite, and live rankings. Built with Flask, in collaboration with <a href="https://github.com/jdabtieu/">jdabtieu</a>.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        EOS,
+                        <<<EOS
+                        <div class="col-sm-4 mb-4">
+                            <div class="card">
+                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/website.webp" alt="Network error, image failed to load.">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">chenanthony.com</h4>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalFour">More</button>
+                                    <a href="https://github.com/slightlyskepticalpotat/chenanthony">
+                                        <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
+                                    </a>
+                                </div>
+                                <div class="modal fade" id="modalFour" tabindex="-1" aria-labelledby="modalFourLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title" id="modalFourLabel">chenanthony.com</h3>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>A website that hosts a short description of myself, my resume, a listing of my projects with a short description for each one, my contact information, and my blog. Eventually, web applications and PHP applications that I create will also be accessible here. Accessible online at <a href="https://chenanthony.com">chenanthony.com</a>.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        EOS,
+                        <<<EOS
+                        <div class="col-sm-4 mb-4">
+                            <div class="card">
+                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/subdl.webp" alt="Network error, image failed to load.">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">submission-downloader</h4>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalFive">More</button>
+                                    <a href="https://github.com/slightlyskepticalpotat/submission-downloader">
+                                        <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
+                                    </a>
+                                </div>
+                                <div class="modal fade" id="modalFive" tabindex="-1" aria-labelledby="modalFiveLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title" id="modalFiveLabel">submission-downloader</h3>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>A customisable tool used for archiving code submissions in bulk from a wide variety of programming sites. Packaged with the pip package manager, and can easily be modified to archive code from unsupported sites. Especially helpful for creating <a href="https://github.com/slightlyskepticalpotat/programming-solutions">solution archives</a>.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        EOS,
+                        <<<EOS
+                        <div class="col-sm-4 mb-4">
+                            <div class="card">
+                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/markov.webp" alt="Network error, image failed to load.">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">simple-markov</h4>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalNine">More</button>
+                                    <a href="https://github.com/slightlyskepticalpotat/simple-markov">
+                                        <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
+                                    </a>
+                                </div>
+                                <div class="modal fade" id="modalNine" tabindex="-1" aria-labelledby="modalNineLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title" id="modalNineLabel">simple-markov</h3>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>A fast and simple <a href="https://en.wikipedia.org/wiki/Markov_chain">Markov chain</a>-based text generator written in C++. The number of preceding states used, temperature of the generated text (how "random" it looks), and number of words to generate are all configurable. Can be used to generate words letter-by-letter, sentences word-by-word, and [indirectly] paragraphs sentence-by_sentence.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        EOS,
+                        <<<EOS
+                        <div class="col-sm-4 mb-4">
+                            <div class="card">
+                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/mt.webp" alt="Network error, image failed to load.">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">mersenne-twister-tools</h4>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalEleven">More</button>
+                                    <a href="https://github.com/slightlyskepticalpotat/mersenne-twister-tools">
+                                        <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
+                                    </a>
+                                </div>
+                                <div class="modal fade" id="modalEleven" tabindex="-1" aria-labelledby="modalElevenLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title" id="modalElevenLabel">mersenne-twister-tools</h3>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>A collection of various programs that implement or relate to the popular <a href="https://en.wikipedia.org/wiki/Mersenne_Twister">Mersenne Twister</a> PRNG in some way. Intended to be a simple implementation that users can build off of. Includes the original 32 and 64-bit versions, other popular variants, programs to crack the state of the Mersenne Twister, and programs to time travel and reverse the Mersenne Twister.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        EOS,
+                        <<<EOS
+                        <div class="col-sm-4 mb-4">
+                            <div class="card">
+                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/stonk.webp" alt="Network error, image failed to load.">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">stonktrack</h4>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalTwelve">More</button>
+                                    <a href="https://github.com/slightlyskepticalpotat/stonktrack">
+                                        <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
+                                    </a>
+                                </div>
+                                <div class="modal fade" id="modalTwelve" tabindex="-1" aria-labelledby="modalTwelveLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title" id="modalTwelveLabel">stonktrack</h3>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>A financial tracker that can track stocks, cryptocurrencies, forexes, and more with simple configuration files and a terminal-based gui. It's built with Python and <a href="http://urwid.org/">urwid</a>, and it's superior to other terminal stock trackers because of the real-time data, variety of assets, and unlimited free updates. Comes with coloured and scrollable versions.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        EOS
+                        );
+                        shuffle($projects);
+                        echo(implode("", $projects));
+                    ?>
+                </div>
             </div>
             <div class="tab-pane fade" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab">
                 <div class="alert alert-success alert-dismissible fade show" role="alert">
-                    <span>14 projects retrieved. These are just a few of my projects—all of the other ones are available on my <a href="https://github.com/slightlyskepticalpotat">Github</a>.</span>
+                    <span>14 projects retrieved. These are just a few of my projects—check out the Featured tab and my <a href="https://github.com/slightlyskepticalpotat">Github</a>!</span>
                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
                 <div class="row">
