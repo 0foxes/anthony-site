@@ -51,7 +51,7 @@
         <div class="tab-content" id="nav-tabContent">
             <div class="tab-pane fade show active" id="nav-featured" role="tabpanel" aria-labelledby="nav-featured-tab">
                 <div class="alert alert-success alert-dismissible fade show" role="alert">
-                    <span>6 projects retrieved. These are just a few of my projects—check out the All tab and my <a href="https://github.com/slightlyskepticalpotat">Github</a>!</span>
+                    <span>6 projects retrieved. These are just a few of my projects in random order—check out the All tab and my <a href="https://github.com/slightlyskepticalpotat">Github</a>!</span>
                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
                 <div class="row">
@@ -62,16 +62,16 @@
                                 <img class="card-img-top card-image" loading="lazy" src="/assets/img/ctfoj.webp" alt="Network error, image failed to load.">
                                 <div class="card-body">
                                     <h4 class="card-title text-center">CTFOJ</h4>
-                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalThree">More</button>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalA">More</button>
                                     <a href="https://github.com/jdabtieu/CTFOJ">
                                         <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
                                     </a>
                                 </div>
-                                <div class="modal fade" id="modalThree" tabindex="-1" aria-labelledby="modalThreeLabel" aria-hidden="true">
+                                <div class="modal fade" id="modalA" tabindex="-1" aria-labelledby="modalALabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                                <h3 class="modal-title" id="modalThreeLabel">CTFOJ</h3>
+                                                <h3 class="modal-title" id="modalALabel">CTFOJ</h3>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
@@ -89,16 +89,16 @@
                                 <img class="card-img-top card-image" loading="lazy" src="/assets/img/website.webp" alt="Network error, image failed to load.">
                                 <div class="card-body">
                                     <h4 class="card-title text-center">chenanthony.com</h4>
-                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalFour">More</button>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalB">More</button>
                                     <a href="https://github.com/slightlyskepticalpotat/chenanthony">
                                         <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
                                     </a>
                                 </div>
-                                <div class="modal fade" id="modalFour" tabindex="-1" aria-labelledby="modalFourLabel" aria-hidden="true">
+                                <div class="modal fade" id="modalB" tabindex="-1" aria-labelledby="modalBLabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                                <h3 class="modal-title" id="modalFourLabel">chenanthony.com</h3>
+                                                <h3 class="modal-title" id="modalBLabel">chenanthony.com</h3>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
@@ -116,16 +116,16 @@
                                 <img class="card-img-top card-image" loading="lazy" src="/assets/img/subdl.webp" alt="Network error, image failed to load.">
                                 <div class="card-body">
                                     <h4 class="card-title text-center">submission-downloader</h4>
-                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalFive">More</button>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalC">More</button>
                                     <a href="https://github.com/slightlyskepticalpotat/submission-downloader">
                                         <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
                                     </a>
                                 </div>
-                                <div class="modal fade" id="modalFive" tabindex="-1" aria-labelledby="modalFiveLabel" aria-hidden="true">
+                                <div class="modal fade" id="modalC" tabindex="-1" aria-labelledby="modalCLabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                                <h3 class="modal-title" id="modalFiveLabel">submission-downloader</h3>
+                                                <h3 class="modal-title" id="modalCLabel">submission-downloader</h3>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
@@ -143,16 +143,16 @@
                                 <img class="card-img-top card-image" loading="lazy" src="/assets/img/markov.webp" alt="Network error, image failed to load.">
                                 <div class="card-body">
                                     <h4 class="card-title text-center">simple-markov</h4>
-                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalNine">More</button>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalD">More</button>
                                     <a href="https://github.com/slightlyskepticalpotat/simple-markov">
                                         <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
                                     </a>
                                 </div>
-                                <div class="modal fade" id="modalNine" tabindex="-1" aria-labelledby="modalNineLabel" aria-hidden="true">
+                                <div class="modal fade" id="modalD" tabindex="-1" aria-labelledby="modalDLabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                                <h3 class="modal-title" id="modalNineLabel">simple-markov</h3>
+                                                <h3 class="modal-title" id="modalDLabel">simple-markov</h3>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
@@ -167,23 +167,23 @@
                         <<<EOS
                         <div class="col-sm-4 mb-4">
                             <div class="card">
-                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/mt.webp" alt="Network error, image failed to load.">
+                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/snake.webp" alt="Network error, image failed to load.">
                                 <div class="card-body">
-                                    <h4 class="card-title text-center">mersenne-twister-tools</h4>
-                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalEleven">More</button>
-                                    <a href="https://github.com/slightlyskepticalpotat/mersenne-twister-tools">
+                                    <h4 class="card-title text-center">snakewhisper</h4>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalE">More</button>
+                                    <a href="https://github.com/slightlyskepticalpotat/snakewhisper">
                                         <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
                                     </a>
                                 </div>
-                                <div class="modal fade" id="modalEleven" tabindex="-1" aria-labelledby="modalElevenLabel" aria-hidden="true">
+                                <div class="modal fade" id="modalE" tabindex="-1" aria-labelledby="modalELabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                                <h3 class="modal-title" id="modalElevenLabel">mersenne-twister-tools</h3>
+                                                <h3 class="modal-title" id="modalELabel">snakewhisper</h3>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-                                                <p>A collection of various programs that implement or relate to the popular <a href="https://en.wikipedia.org/wiki/Mersenne_Twister">Mersenne Twister</a> PRNG in some way. Intended to be a simple implementation that users can build off of. Includes the original 32 and 64-bit versions, other popular variants, programs to crack the state of the Mersenne Twister, and programs to time travel and reverse the Mersenne Twister.</p>
+                                                <p>A simple end-to-end encrypted chat program written in Python. It's functional (it currently supports two-way communication with elliptic curve key exchange and AES-128 encryption), but snakewhisper is primarily a proof-of-concept that showcases how regular computer users can easily access—or even create—chat programs with end-to-end encryption.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -197,16 +197,16 @@
                                 <img class="card-img-top card-image" loading="lazy" src="/assets/img/stonk.webp" alt="Network error, image failed to load.">
                                 <div class="card-body">
                                     <h4 class="card-title text-center">stonktrack</h4>
-                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalTwelve">More</button>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalF">More</button>
                                     <a href="https://github.com/slightlyskepticalpotat/stonktrack">
                                         <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
                                     </a>
                                 </div>
-                                <div class="modal fade" id="modalTwelve" tabindex="-1" aria-labelledby="modalTwelveLabel" aria-hidden="true">
+                                <div class="modal fade" id="modalF" tabindex="-1" aria-labelledby="modalFLabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                                <h3 class="modal-title" id="modalTwelveLabel">stonktrack</h3>
+                                                <h3 class="modal-title" id="modalFLabel">stonktrack</h3>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
@@ -226,12 +226,12 @@
             </div>
             <div class="tab-pane fade" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab">
                 <div class="alert alert-success alert-dismissible fade show" role="alert">
-                    <span>14 projects retrieved. These are just a few of my projects—check out the Featured tab and my <a href="https://github.com/slightlyskepticalpotat">Github</a>!</span>
+                    <span>15 projects retrieved. These are just a few of my projects in random order—check out the Featured tab and my <a href="https://github.com/slightlyskepticalpotat">Github</a>!</span>
                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
                 <div class="row">
                     <?php
-                        $projects = array(<<<EOS
+                        $projects_all = array(<<<EOS
                         <div class="col-sm-4 mb-4">
                             <div class="card">
                                 <img class="card-img-top card-image" loading="lazy" src="/assets/img/aitic.webp" alt="Network error, image failed to load.">
@@ -608,10 +608,37 @@
                                 </div>
                             </div>
                         </div>
+                        EOS,
+                        <<<EOS
+                        <div class="col-sm-4 mb-4">
+                            <div class="card">
+                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/snake.webp" alt="Network error, image failed to load.">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">snakewhisper</h4>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalFourteen">More</button>
+                                    <a href="https://github.com/slightlyskepticalpotat/snakewhisper">
+                                        <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
+                                    </a>
+                                </div>
+                                <div class="modal fade" id="modalFourteen" tabindex="-1" aria-labelledby="modalFourteenLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title" id="modalFourteenLabel">snakewhisper</h3>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>A simple end-to-end encrypted chat program written in Python. It's functional (it currently supports two-way communication with elliptic curve key exchange and AES-128 encryption), but snakewhisper is primarily a proof-of-concept that showcases how regular computer users can easily access—or even create—chat programs with end-to-end encryption.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         EOS
                         );
-                        shuffle($projects);
-                        echo(implode("", $projects));
+                        shuffle($projects_all);
+                        echo(implode("", $projects_all));
                     ?>
                 </div>
             </div>
@@ -649,7 +676,7 @@
         </ul>
     </div>
     <div class="text-center">
-        <p><small>Copyright Anthony Chen, 2019–2021. This website is licenced under a <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 Licence</a>.</small></p>
+        <p><small>Copyright Anthony Chen, 2019–2021. This website is licenced under the <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 Licence</a>.</small></p>
     </div>
 </footer>
 <script src="/assets/js/index.js"></script>
