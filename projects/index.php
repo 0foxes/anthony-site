@@ -226,7 +226,7 @@
             </div>
             <div class="tab-pane fade" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab">
                 <div class="alert alert-success alert-dismissible fade show" role="alert">
-                    <span>15 projects retrieved. These are just a few of my projects in random order—check out the Featured tab and my <a href="https://github.com/slightlyskepticalpotat">Github</a>!</span>
+                    <span>16 projects retrieved. These are just a few of my projects in random order—check out the Featured tab and my <a href="https://github.com/slightlyskepticalpotat">Github</a>!</span>
                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
                 <div class="row">
@@ -250,7 +250,7 @@
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-                                                <p>An object-oriented tic-tac-toe game with an artificial intelligence. Tic-tac-toe is a sovled game, and the AI always plays the optimal move. It uses the <a href="https://en.wikipedia.org/wiki/Minimax">minimax</a> algorithm with <a href="https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning">alpha-beta pruning</a>. There is also a move recommendation feature for players who are new to tic-tac-toe. Finally, this program can be modified to play other games like Gomuku and Connect Four.</p>
+                                                <p>An object-oriented tic-tac-toe using artifical intelligence. Available with both CLI and GUI clients (built with pygame), ai-tictactoe uses the <a href="https://en.wikipedia.org/wiki/Minimax">minimax</a> algorithm with <a href="https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning">alpha-beta pruning</a> to play the optimal move every time. Finally, this program can be modified to play other games like Gomuku and Connect Four.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -629,6 +629,33 @@
                                             </div>
                                             <div class="modal-body">
                                                 <p>A simple end-to-end encrypted chat program written in Python. It's functional (it currently supports two-way communication with elliptic curve key exchange and AES-128 encryption), but snakewhisper is primarily a proof-of-concept that showcases how regular computer users can easily access—or even create—chat programs with end-to-end encryption.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        EOS,
+                        <<<EOS
+                        <div class="col-sm-4 mb-4">
+                            <div class="card">
+                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/cs50x.webp" alt="Network error, image failed to load.">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">cs50x-2021</h4>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalFifteen">More</button>
+                                    <a href="https://github.com/slightlyskepticalpotat/cs50x-2021">
+                                        <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
+                                    </a>
+                                </div>
+                                <div class="modal fade" id="modalFifteen" tabindex="-1" aria-labelledby="modalFifteenlabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title" id="modalFifteenlabel">cs50x-2021</h3>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>This repository contains my coursework for the 2021 CS50x: Introduction to Computer Science online course offered by Harvard University. The course covered a wide variety of languages and technologies including Scratch, C, Python, SQL, HTML, CSS, JavaScript, and Flask.</p>
                                             </div>
                                         </div>
                                     </div>
