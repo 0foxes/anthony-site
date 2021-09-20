@@ -226,7 +226,7 @@
             </div>
             <div class="tab-pane fade" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab">
                 <div class="alert alert-success alert-dismissible fade show" role="alert">
-                    <span>16 projects retrieved. These are just a few of my projects in random order—check out the Featured tab and my <a href="https://github.com/slightlyskepticalpotat">Github</a>!</span>
+                    <span>17 projects retrieved. These are just a few of my projects in random order—check out the Featured tab and my <a href="https://github.com/slightlyskepticalpotat">Github</a>!</span>
                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
                 <div class="row">
@@ -656,6 +656,33 @@
                                             </div>
                                             <div class="modal-body">
                                                 <p>This repository contains my coursework for the 2021 CS50x: Introduction to Computer Science online course offered by Harvard University. The course covered a wide variety of languages and technologies including Scratch, C, Python, SQL, HTML, CSS, JavaScript, and Flask.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        EOS,
+                        <<<EOS
+                        <div class="col-sm-4 mb-4">
+                            <div class="card">
+                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/gennet.webp" alt="Network error, image failed to load.">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">GenNet</h4>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalSixteen">More</button>
+                                    <a href="https://github.com/AbdulBaseetShabi/GenNet">
+                                        <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
+                                    </a>
+                                </div>
+                                <div class="modal fade" id="modalSixteen" tabindex="-1" aria-labelledby="modalSixteenlabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title" id="modalSixteenlabel">GenNet</h3>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>A novel way to connect with the generations of your family before and after you, GenNet allows users to create "trees" for their families and populate the "leaves" of the tree with pieces of knowledge, anecdotes, or photos and videos. Built in collaboration with <a href="https://github.com/AbdulBaseetShabi">AbdulBaseetShabi</a>, <a href="https://github.com/Arihan10">Arihan10</a>, and <a href="https://github.com/divyxnsh">divyxnsh</a> at <a href="https://hackthenorth.com/">Hack the North 2021</a>.</p>
                                             </div>
                                         </div>
                                     </div>
