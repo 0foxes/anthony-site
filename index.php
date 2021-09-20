@@ -51,7 +51,7 @@
                 <img class="float-end" src="https://picsum.photos/256/256?blur=1&random=2" alt="Network error, image failed to load."></img>
             </div>
             <div class="col-sm-4">
-                <img class="float-end rand-img" src="/assets/img/rand/<?php echo rand(1, 4); ?>.webp" alt="Network error, image failed to load."></img>
+                <img class="float-end rand-img" src="/assets/img/rand/<?php echo rand(1, 6); ?>.webp" alt="Network error, image failed to load."></img>
             </div>
         </div>
         <hr>
