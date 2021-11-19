@@ -42,16 +42,18 @@
             <h1>Projects<span class="blinking">_</span></h1>
         </div>
         <hr>
-        <nav>
-            <div class="nav nav-tabs mb-4" id="nav-tab" role="tablist">
-                <button class="nav-link nav-tab-style active" id="nav-featured-tab" data-bs-toggle="tab" data-bs-target="#nav-featured" type="button" role="tab" aria-controls="nav-featured" aria-selected="true">Featured</button>
-                <button class="nav-link nav-tab-style" id="nav-all-tab" data-bs-toggle="tab" data-bs-target="#nav-all" type="button" role="tab" aria-controls="nav-all" aria-selected="false">All</button>
-            </div>
-        </nav>
-        <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="nav-featured" role="tabpanel" aria-labelledby="nav-featured-tab">
+        <ul class="nav nav-tabs mb-4" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link nav-tab-style active" id="best-tab" data-bs-toggle="tab" data-bs-target="#best" type="button" role="tab" aria-controls="best" aria-selected="true">Best</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link nav-tab-style" id="all-tab" data-bs-toggle="tab" data-bs-target="#all" type="button" role="tab" aria-controls="all" aria-selected="false">All</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="best" role="tabpanel" aria-labelledby="best-tab">
                 <div class="alert alert-success alert-dismissible fade show" role="alert">
-                    <span>6 projects retrieved. These are just a few of my projects in random order—check out the All tab and my <a href="https://github.com/slightlyskepticalpotat">Github</a>!</span>
+                    <span>6 projects retrieved. These are just a few of my best projects in random order—check out the All tab and my <a href="https://github.com/slightlyskepticalpotat">Github</a>!</span>
                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
                 <div class="row">
@@ -224,9 +226,9 @@
                     ?>
                 </div>
             </div>
-            <div class="tab-pane fade" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab">
+            <div class="tab-pane fade" id="all" role="tabpanel" aria-labelledby="all-tab">
                 <div class="alert alert-success alert-dismissible fade show" role="alert">
-                    <span>18 projects retrieved. These are just a few of my projects in random order—check out the Featured tab and my <a href="https://github.com/slightlyskepticalpotat">Github</a>!</span>
+                    <span>18 projects retrieved. These are just a few of my projects in random order—check out the Best tab and my <a href="https://github.com/slightlyskepticalpotat">Github</a>!</span>
                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
                 <div class="row">
