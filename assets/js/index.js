@@ -20,3 +20,10 @@ $(document).ready(function(){
         $('#myTab button[data-bs-target="' + activeTab + '"]').tab('show');
     }
 });
+
+// Add back to top icon from external
+addBackToTop({
+    diameter: 64,
+    backgroundColor: '#6a5acd',
+    textColor: '#ffffff'
+})
