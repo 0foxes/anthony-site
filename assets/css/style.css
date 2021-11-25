@@ -47,19 +47,19 @@ h6 {
 .blog-content-img-big {
     max-height: 1024px;
     max-width: 1024px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .blog-content-img-med {
     max-height: 512px;
     max-width: 512px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .blog-content-img-small {
     max-height: 256px;
     max-width: 256px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 
@@ -177,4 +177,11 @@ h6 {
     height: 256px;
     width: 256px;
     object-fit: cover;
+}
+
+/* move carousel images down */
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
 }
