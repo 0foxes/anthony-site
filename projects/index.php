@@ -115,11 +115,11 @@
                         <<<EOS
                         <div class="col-sm-4 mb-4">
                             <div class="card">
-                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/subdl.webp" alt="Network error, image failed to load.">
+                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/bookar.webp" alt="Network error, image failed to load.">
                                 <div class="card-body">
-                                    <h4 class="card-title text-center">submission-downloader</h4>
+                                    <h4 class="card-title text-center">bookmarkarchiver</h4>
                                     <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalC">More</button>
-                                    <a href="https://github.com/slightlyskepticalpotat/submission-downloader">
+                                    <a href="https://github.com/slightlyskepticalpotat/bookmarkarchiver">
                                         <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
                                     </a>
                                 </div>
@@ -127,11 +127,11 @@
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                                <h3 class="modal-title" id="modalCLabel">submission-downloader</h3>
+                                                <h3 class="modal-title" id="modalCLabel">bookmarkarchiver</h3>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-                                                <p>A customisable tool used for archiving code submissions in bulk from a wide variety of programming sites. Packaged with the pip package manager, and can easily be modified to archive code from unsupported sites. Especially helpful for creating <a href="https://github.com/slightlyskepticalpotat/programming-solutions">solution archives</a>.</p>
+                                                <p>A customisable tool used to archive all of your browser bookmarks on the <a href="http://web.archive.org/">Internet Archive</a>. It supports all major browsers (any browser that allows bookmark exporting, really), and has a theoretical limit of 100,000 websites saved per day. Does not require an <a href="http://web.archive.org/">Internet Archive</a> account.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -265,9 +265,9 @@
                             <div class="card">
                                 <img class="card-img-top card-image" loading="lazy" src="/assets/img/rc4.webp" alt="Network error, image failed to load.">
                                 <div class="card-body">
-                                    <h4 class="card-title text-center">RC4-drop</h4>
+                                    <h4 class="card-title text-center">RC4-variants</h4>
                                     <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalOne">More</button>
-                                    <a href="https://github.com/slightlyskepticalpotat/RC4-drop">
+                                    <a href="https://github.com/slightlyskepticalpotat/RC4-variants">
                                         <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
                                     </a>
                                 </div>
@@ -275,7 +275,7 @@
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                                <h3 class="modal-title" id="modalOneLabel">RC4-drop</h3>
+                                                <h3 class="modal-title" id="modalOneLabel">RC4-variants</h3>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
