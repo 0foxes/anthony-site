@@ -228,7 +228,7 @@
             </div>
             <div class="tab-pane fade" id="all" role="tabpanel" aria-labelledby="all-tab">
                 <div class="alert alert-success alert-dismissible fade show" role="alert">
-                    <span>18 projects retrieved. These are just a few of my projects in random order—check out the Best tab and my <a href="https://github.com/slightlyskepticalpotat">Github</a>!</span>
+                    <span>21 projects retrieved. These are just a few of my projects in random order—check out the Best tab and my <a href="https://github.com/slightlyskepticalpotat">Github</a>!</span>
                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
                 <div class="row">
@@ -712,6 +712,87 @@
                                             </div>
                                             <div class="modal-body">
                                                 <p>This repository contains my coursework for the 2021 CS50ai: Introduction to Artificial Intelligence online course offered by Harvard University. The course explored concepts and algorithms behind artificial intelligence with a variety of languages and technologies including Python, HTML, Tensorflow, Pygame, scikit-learn, numpy, and nltk.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        EOS,
+                        <<<EOS
+                        <div class="col-sm-4 mb-4">
+                            <div class="card">
+                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/bookar.webp" alt="Network error, image failed to load.">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">bookmarkarchiver</h4>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalEighteen">More</button>
+                                    <a href="https://github.com/slightlyskepticalpotat/bookmarkarchiver">
+                                        <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
+                                    </a>
+                                </div>
+                                <div class="modal fade" id="modalEighteen" tabindex="-1" aria-labelledby="modalEighteenLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title" id="modalEighteenLabel">bookmarkarchiver</h3>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>A customisable tool used to archive all of your browser bookmarks on the <a href="http://web.archive.org/">Internet Archive</a>. It supports all major browsers (any browser that allows bookmark exporting, really), and has a theoretical limit of 100,000 websites saved per day. Does not require an <a href="http://web.archive.org/">Internet Archive</a> account.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        EOS,
+                        <<<EOS
+                        <div class="col-sm-4 mb-4">
+                            <div class="card">
+                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/super.webp" alt="Network error, image failed to load.">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">superlumic</h4>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalNineteen">More</button>
+                                    <a href="https://github.com/slightlyskepticalpotat/superlumic">
+                                        <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
+                                    </a>
+                                </div>
+                                <div class="modal fade" id="modalNineteen" tabindex="-1" aria-labelledby="modalNineteenLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title" id="modalNineteenLabel">superlumic</h3>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>A performant, secure, and cross-platform command-line password manager. Superlumic allows you to create, load, and store encrypted password lists. Once loaded, you can create, read, update, delete, and reorder the passwords in each password list. The passwords are encrypted with AES-256 in CTR mode and a user-provided password.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        EOS,
+                        <<<EOS
+                        <div class="col-sm-4 mb-4">
+                            <div class="card">
+                                <img class="card-img-top card-image" loading="lazy" src="/assets/img/doge.webp" alt="Network error, image failed to load.">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">dogecoin-unofficial</h4>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalTwenty">More</button>
+                                    <a href="https://github.com/slightlyskepticalpotat/dogecoin-unofficial">
+                                        <i class="fas fa-external-link-alt fa-2x px-2 icon float-end"></i>
+                                    </a>
+                                </div>
+                                <div class="modal fade" id="modalTwenty" tabindex="-1" aria-labelledby="modalTwentyLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h3 class="modal-title" id="modalTwentyLabel">dogecoin-unofficial</h3>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Linux Snap for Dogecoin Core available on the Snap Store. The dogecoin-unofficial snap is unofficial, but it downloads and verifies official binaries from GitHub. This snap will be updated within 1 day of each official release, and the build script and generated .snap files are viewable.</p>
                                             </div>
                                         </div>
                                     </div>
