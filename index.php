@@ -88,7 +88,7 @@
         </ul>
     </div>
     <div class="text-center">
-        <p><small>Copyright Anthony Chen, 2019–2021. This website is licenced under the <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 Licence</a>.</small></p>
+        <p><small>Copyright Anthony Chen, 2019–2022. This website is licenced under the <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 Licence</a>.</small></p>
     </div>
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta3/js/bootstrap.min.js" integrity="sha512-mp3VeMpuFKbgxm/XMUU4QQUcJX4AZfV5esgX72JQr7H7zWusV6lLP1S78wZnX2z9dwvywil1VHkHZAqfGOW7Nw==" crossorigin="anonymous"></script>
